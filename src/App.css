@@ -1,0 +1,37 @@
+.App {
+  position: relative;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgba(208, 158, 241, 0.5);
+  border-radius: 0.25rem;
+  transition: background 0.3s ease-in-out;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: rgba(190, 171, 202, 0.8);
+}
+
+body::-webkit-scrollbar-thumb:active {
+  background: rgb(208, 138, 255);
+}
+
+.navbar.scrolled {
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease;
+}
+
+.navbar {
+  transition: background-color 0.3s ease;
+}

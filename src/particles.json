@@ -1,0 +1,35 @@
+{
+  "fullScreen": { "enable": false },
+  "particles": {
+    "number": { "value": 40 },
+    "color": { "value": "#ffffff" },
+    "shape": { "type": "circle" },
+    "opacity": {
+      "value": 0.4,
+      "random": true
+    },
+    "size": {
+      "value": 6,
+      "random": true
+    },
+    "move": {
+      "enable": true,
+      "speed": 1.5,
+      "direction": "top",
+      "outModes": { "default": "out" }
+    }
+  },
+  "interactivity": {
+    "events": {
+      "onhover": { "enable": true, "mode": "repulse" },
+      "onclick": { "enable": true, "mode": "push" }
+    },
+    "modes": {
+      "repulse": { "distance": 100 },
+      "push": { "quantity": 4 }
+    }
+  },
+  "background": {
+    "color": "#00264d"
+  }
+}
