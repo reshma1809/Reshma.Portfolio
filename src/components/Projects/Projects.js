@@ -3,7 +3,7 @@ import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import './Projects.css';
 
 import ECOBIN from '../Assets/Eco-Bin.jpg';
-import JOBY from '../Assets/joby.jpg';
+import MEDIMEET from '../Assets/MediMeet.png';
 import PORTFOLIO from '../Assets/portfolio.png';
 import QUOTES_GENERATOR from '../Assets/Quotes.png';
 import CALCULATOR from '../Assets/calculator.png';
@@ -22,14 +22,14 @@ const projects = [
     title: 'Personal Web Profile',
     description: 'A responsive personal portfolio website developed using React.js, showcasing my skills, projects, and experience. It features a modern UI, organized layout, and interactive elements to provide a seamless user experience across all devices.',
     imageUrl: PORTFOLIO,
-    link: 'https://github.com/reshma1809/Personal_Porfolio'
+    link: 'https://github.com/reshma1809/Reshma.Portfolio'
   },
   {
     id: 3,
-    title: 'A Job & Internship Discovery Platform',
-    description: 'Joby is a job and internship search platform built with HTML, CSS, JavaScript, and React. It features smooth navigation, dynamic interactivity, and a clean, responsive UI. Designed to provide a seamless experience for users across all devices.',
-    imageUrl: JOBY,
-    link: 'https://github.com/reshma1809/Joby'
+    title: 'MediMeet-Where Care Meets Convenience.',
+    description: 'MediMeet is a smart doctor appointment web app simplifying healthcare access. Patients can easily find doctors by specialization, book, and manage appointments. Doctors and admins get organized dashboards for efficient scheduling. Built with React, MediMeet offers a seamless, responsive experience for hassle-free healthcare.',
+    imageUrl: MEDIMEET,
+    link: 'https://github.com/reshma1809/MediMeet'
   },
    {
     id: 4,
