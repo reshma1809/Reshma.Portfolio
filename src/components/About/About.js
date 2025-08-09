@@ -21,7 +21,7 @@ const About = () => {
                 My journey began with mastering foundational programming languages  C, Python, Java, and JavaScript, I approach software development with logical precision and a problem-solving mindset honed through Data Structures and Algorithms. My experience spans modern frameworks such as ReactJS, AngularJS, and Spring Boot, paired with database management using MySQL, allowing me to build end-to-end, scalable web applications.
               </p>
               <p className="about-p">
-                As a Salesforce Admin, I specialize in managing and optimizing Salesforce environments to enhance business workflows and user experiences. I have hands-on expertise in creating and maintaining objects, workflows, and reports within Salesforce, aligning technical solutions with organizational needs.
+                As a Salesforce Admin,I specialize in managing and optimizing Salesforce environments to enhance business workflows and user experiences. I have hands-on expertise in creating and maintaining objects, workflows, and reports within Salesforce, aligning technical solutions with organizational needs.
               </p>
               <p className="about-p">
                 I am driven by a commitment to clean, maintainable code and user-centered design, ensuring every project I contribute to blends technical excellence with practical impact. </p>
@@ -40,5 +40,6 @@ const About = () => {
     </Container>
   );
 };
+
 
 export default About;
