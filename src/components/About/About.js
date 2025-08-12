@@ -1,7 +1,8 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import './About.css';
-import ResumePDF from '../Assets/reshma_reshu_ resume.pdf';
+import ResumePDF from '../Assets/Reshma_resume.pdf';
+
 
 const About = () => {
   return (

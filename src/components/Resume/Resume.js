@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import './Resume.css';
-import ResumePDF from '../Assets/reshma_reshu_ resume.pdf';  // ✅ Correct import path
+import ResumePDF from '../Assets/Reshma_resume.pdf'; // ✅ Match name with usage
 
 const Resume = () => {
   return (
@@ -26,4 +26,3 @@ const Resume = () => {
 };
 
 export default Resume;
-
