@@ -7,7 +7,7 @@ import MEDIMEET from '../Assets/MediMeet.png';
 import PORTFOLIO from '../Assets/portfolio.png';
 import QUOTES_GENERATOR from '../Assets/Quotes.png';
 import CALCULATOR from '../Assets/calculator.png';
-
+import GARAGE from '../Assets/GARAGE.png';
 
 const projects = [
   {
@@ -24,22 +24,29 @@ const projects = [
     imageUrl: PORTFOLIO,
     link: 'https://github.com/reshma1809/Reshma.Portfolio'
   },
-  {
+    {
     id: 3,
+    title: 'Garage Management System',
+    description: 'A cloud-based system built on Salesforce to streamline garage operations by managing customer details, service records, billing, feedback, and appointments. The project leverages Salesforce objects, roles, profiles, and flows to automate processes, ensure accurate billing, and enhance customer experience while reducing manual effort..',
+    imageUrl: GARAGE,
+    link: 'https://github.com/reshma1809/MediMeet'
+  },
+  {
+    id: 4,
     title: 'MediMeet-Where Care Meets Convenience.',
     description: 'MediMeet is a smart doctor appointment web app simplifying healthcare access. Patients can easily find doctors by specialization, book, and manage appointments. Doctors and admins get organized dashboards for efficient scheduling. Built with React, MediMeet offers a seamless, responsive experience for hassle-free healthcare.',
     imageUrl: MEDIMEET,
     link: 'https://github.com/reshma1809/MediMeet'
   },
    {
-    id: 4,
+    id: 5,
     title: 'Inspiring Quotes Generator Web App',
     description: 'A lightweight, responsive web application that dynamically fetches and displays inspirational quotes using a public API. Built with HTML, CSS, and JavaScript, the app features a clean UI, smooth transitions, and social sharing functionality for seamless user engagement.',
     imageUrl: QUOTES_GENERATOR ,
     link: 'https://github.com/reshma1809/Quotes-Generator'
   },
   {
-    id: 5,
+    id: 6,
     title: 'A User-Friendly Calculator for Quick Math',
     description: 'Developed a responsive calculator web app using HTML, CSS, and JavaScript. Supports basic arithmetic operations with a clean and minimal interface. Designed for quick and easy use across both desktop and mobile devices.',
     imageUrl: CALCULATOR,
